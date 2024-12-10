@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/thirdtaskreact/static/css/main.1661586f.css",
+    "main.js": "/thirdtaskreact/static/js/main.ffe6c22d.js",
+    "index.html": "/thirdtaskreact/index.html",
+    "static/media/logo.svg": "/thirdtaskreact/static/media/logo.4fdba1bc0f5634084a6f5cd488878ae0.svg",
+    "main.1661586f.css.map": "/thirdtaskreact/static/css/main.1661586f.css.map",
+    "main.ffe6c22d.js.map": "/thirdtaskreact/static/js/main.ffe6c22d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1661586f.css",
+    "static/js/main.ffe6c22d.js"
+  ]
+}
