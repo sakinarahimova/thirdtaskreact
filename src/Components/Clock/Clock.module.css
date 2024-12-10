@@ -1,0 +1,24 @@
+.clockContainer{
+    display: flex;
+    justify-content: center;
+}
+.clockTitle{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.clockTime{
+    font-size: 2rem;
+    color: #333333;
+}
+.clockCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}

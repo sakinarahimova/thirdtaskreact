@@ -1,0 +1,104 @@
+.timerContainer {
+    display: flex;
+    justify-content: center;
+    background-color: #f7f7f7;
+}
+.timerCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    width: 70%;
+    max-width: 600px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    height: auto;
+    background-color: #f5f5dc;
+    padding: 20px;
+}
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.timerInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: flex-start;
+    width: 50%;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: #ffefd5;
+    padding: 15px;
+    height: 200px;
+}
+.inputValues {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #555;
+}
+.inputValues p{    
+    font-size: 24px;
+}
+
+.inputTime {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input {
+    padding: 5px;
+    width: 50px;
+    height: 35px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.inputButton {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.button {
+    width: 70px;
+    height: 35px;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffe4b5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.outputCard {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+    height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff8dc;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.output {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 46px;
+    width: 100%;
+    padding: 0 10px;
+    gap: 10px;
+    color: #333;
+}

@@ -1,0 +1,21 @@
+a{
+  text-decoration: none;
+  color: black;
+}
+.active{
+  color: orangered;
+}
+.App{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.menu-bar{
+  width: 100%;
+  background-color: beige;
+  height: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
