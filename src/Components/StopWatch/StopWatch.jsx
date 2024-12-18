@@ -12,18 +12,18 @@ const StopWatch = () => {
         let interval;
         if (isRunning) {
             interval = setInterval(() => {
-                setTextSecond((prev) => {
-                    if (prev + 1 === 60) {
-                        setTextMinute((minutePrev) => {
-                            if (minutePrev + 1 === 60) {
-                                setTextHour((hourPrev) => hourPrev + 1);
+                setTextSecond((previous) => {
+                    if (previous + 1 === 60) {
+                        setTextMinute((minutePrevious) => {
+                            if (minutePrevious + 1 === 60) {
+                                 setTextHour((hourPrevious) => hourPrevious + 1);
                                 return 0;
                             }
-                            return minutePrev + 1;
+                            return minutePrevious + 1;
                         });
                         return 0;
                     }
-                    return prev + 1;
+                    return previous + 1;
                 });
             }, 1000);
             setIntervalId(interval);
@@ -35,7 +35,7 @@ const StopWatch = () => {
     }, [isRunning]);
 
     const handleStartStop = () => {
-        setIsRunning((prev) => !prev);
+        setIsRunning((previous) => !previous);
     };
 
     const handleReset = () => {
