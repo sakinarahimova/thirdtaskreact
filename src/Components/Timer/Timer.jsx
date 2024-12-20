@@ -15,15 +15,15 @@ const Timer = () => {
 
         if (isRunning && (remainingHour > 0 || remainingMinute > 0 || remainingSecond > 0)) {
             timer = setInterval(() => {
-                setRemainingSecond((prev) => {
-                    if (prev > 0) return prev - 1;
+                setRemainingSecond((previous) => {
+                    if (previous > 0) return previous - 1;
 
                     if (remainingMinute > 0 || remainingHour > 0) {
-                        setRemainingMinute((prevMinute) => {
-                            if (prevMinute > 0) return prevMinute - 1;
+                        setRemainingMinute((previousMinute) => {
+                            if (previousMinute > 0) return previousMinute - 1;
 
                             if (remainingHour > 0) {
-                                setRemainingHour((prevHour) => prevHour - 1);
+                                setRemainingHour((previousHour) => previousHour - 1);
                                 return 59;
                             }
                             return 0;
